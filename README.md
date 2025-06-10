@@ -157,9 +157,9 @@ create directory
 
 copy ansible.cfg and inventory into vm-monitor directory
 
-mkdir /home/ubuntu/vm-monitor/group_vars
+    mkdir /home/ubuntu/vm-monitor/group_vars
 
-vi /home/ubuntu/vm-monitor/group_vars/all.yaml
+    vi /home/ubuntu/vm-monitor/group_vars/all.yaml
 
 ```
 smpt-server: “smtp.gmail.com”
