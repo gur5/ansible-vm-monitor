@@ -150,5 +150,22 @@ done
 ssh Ubuntu@ <ec2-3-86-193-164.compute-1.amazonaws.com> (copy)
 ```
 
+# Create the Project 
+create directory 
+          
+    mkdir vm-monitor
 
+copy ansible.cfg and inventory into vm-monitor directory
+
+mkdir /home/ubuntu/vm-monitor/group_vars
+
+vi /home/ubuntu/vm-monitor/group_vars/all.yaml
+
+```
+smpt-server: “smtp.gmail.com”
+smtp_port: 587
+email_user: “yourname@gmail.com”
+email_pass: “emailpassword” <create app password in google account https://myaccount.google.com/u/2/apppasswords >
+alert_recipient: “other email address”
+```
 
