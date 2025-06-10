@@ -412,5 +412,8 @@ alert_recipient: “other email address”
 </body>
 </html>
 ```
+### Run ansible playbook :
+
+    ansible-playbook playbook.yaml 
 
 
